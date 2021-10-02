@@ -1,0 +1,13 @@
+.hover-anim {
+  &--bounce:hover {
+    svg {
+      animation: 0.4s bounce ease-in-out;
+      animation-delay: 0.1s;
+      transform-origin: center bottom;
+    }
+  }
+
+  &--rubberBand:hover {
+    animation: 0.7s rubberBand ease-in-out;
+  }
+}

@@ -1,0 +1,66 @@
+.anim {
+
+  &--bounce {
+    animation: 5s bounceWithDelay90-100 ease-in-out infinite;
+    animation-delay: 3500 + random(500);
+    transform-origin: center bottom;
+  }
+
+  &--moveBitY {
+    animation: 7s moveBitY ease-in-out infinite;
+  }
+
+  &--fadeIn {
+    animation: fadeIn 1s ease-in-out;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  &--fadeIn-infinite {
+    animation: fadeIn 1s ease-in-out infinite;
+    animation-fill-mode: forwards;
+  }
+
+  &--fadeIn-short {
+    animation: fadeIn 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  &--fadeInDark {
+    animation: fadeInDark 1s ease;
+    animation-fill-mode: forwards;
+  }
+
+  &--fadeInDark-short {
+    animation: fadeInDark 0.5s ease;
+    animation-fill-mode: forwards;
+  }
+
+  &--fadeInUp {
+    animation: fadeInUp 0.77s ease-in-out;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  &--fadeInDown {
+    animation: fadeInDown 0.37s ease-in-out;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  &--slideInDown {
+    animation: slideInDown 0.37s ease-in-out;
+  }
+
+  &--fadeOutDown {
+    animation: fadeOutDown 0.37s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+
+  &--rollercoasterOutUp {
+    animation: rollercoasterOutUp 1s ease-in-out;
+    transform-origin: center bottom;
+    animation-fill-mode: forwards;
+  }
+}

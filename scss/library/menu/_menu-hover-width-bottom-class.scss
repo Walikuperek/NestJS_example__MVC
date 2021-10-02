@@ -1,0 +1,70 @@
+/* HTML snippet for this CSS class
+
+  <nav class="menu-hover-width-bottom">
+    <ul class="list">
+      <li class="item anim--fadeInUp delay-1">
+        <a class="link"href="/">Home</a>
+      </li>
+      //... 
+      <li class="item anim--fadeInUp delay-4">
+        <a class="link"href="/contact">Contact</a>
+      </li>
+    <ul>
+  </nav>
+*/
+
+.menu-hover-width-bottom {
+  overflow: hidden;
+
+  .list {
+    margin: 0 auto 0;
+    padding: 0;
+    list-style: none;
+    display: table;
+    width: 600px;
+    max-width: 90vw;
+    text-align: center;
+  }
+
+  .item {
+    display: table-cell;
+    position: relative;
+    padding: 15px 0;
+  }
+
+  .link {
+    color: currentColor;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+
+  .link:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: red;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  .link:hover:after {
+    width: 100%;
+    left: 0;
+  }
+
+  @media screen and (max-height: 300px) {
+    .list {
+      margin-top: 40px;
+    }
+  }
+
+}

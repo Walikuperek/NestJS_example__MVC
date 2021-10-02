@@ -1,0 +1,9 @@
+$max-w: 1100px;
+$w: 100%;
+
+.container {
+  overflow: hidden;
+  max-width: $max-w;
+  width: $w;
+  margin: 0 auto;
+}

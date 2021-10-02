@@ -1,0 +1,27 @@
+.d {
+    &--none {
+        display: none !important;
+    }
+
+    &--block {
+        display: block !important;
+    }
+
+    &--inline-block {
+        display: inline-block !important;
+    }
+
+    &--flex {
+        display: flex !important;
+
+        &-column {
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        &-column-reverse {
+            flex-wrap: wrap-reverse;
+            flex-direction: column-reverse;
+        }
+    }
+}

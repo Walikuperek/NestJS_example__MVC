@@ -1,0 +1,25 @@
+const a0 = document.querySelector('.path-0');
+const a1 = document.querySelector('.path-1');
+const a2 = document.querySelector('.path-2');
+const a3 = document.querySelector('.path-3');
+const a4 = document.querySelector('.path-4');
+const a5 = document.querySelector('.path-5');
+const a6 = document.querySelector('.path-6');
+const a7 = document.querySelector('.path-7');
+const a8 = document.querySelector('.path-8');
+const a9 = document.querySelector('.path-9');
+const a10 = document.querySelector('.path-10');
+const a11 = document.querySelector('.path-11');
+
+console.log(a0.getTotalLength());
+console.log(a1.getTotalLength());
+console.log(a2.getTotalLength());
+console.log(a3.getTotalLength());
+console.log(a4.getTotalLength());
+console.log(a5.getTotalLength());
+console.log(a6.getTotalLength());
+console.log(a7.getTotalLength());
+console.log(a8.getTotalLength());
+console.log(a9.getTotalLength());
+console.log(a10.getTotalLength());
+console.log(a11.getTotalLength());

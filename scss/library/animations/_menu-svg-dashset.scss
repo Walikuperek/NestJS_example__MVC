@@ -1,0 +1,84 @@
+.anim--svg-path {
+  padding: 1em;
+  width: 100%;
+  max-width: 90vw;
+  margin: 0.5em auto;
+  display: flex;
+  justify-content: center;
+  
+  .svg-path {
+    fill: none;
+    stroke: red;
+    stroke-width: 17px;
+  
+    animation: move 1.5s linear;
+    animation-fill-mode: forwards;
+  }
+
+  .path-0 {
+    /* Stroke-dasharray property */
+    stroke-dasharray: 23825.560546875px;
+    stroke-dashoffset: 23825.560546875px;
+  }
+
+  .path-1 {
+    stroke-dasharray: 1003.1173095703125px;
+    stroke-dashoffset: 1003.1173095703125px;
+  }
+
+  .path-2 {
+    stroke-dasharray: 16078.5185546875px;
+    stroke-dashoffset: 16078.5185546875px;
+  }
+
+  .path-3 {
+    stroke-dasharray: 5464.7529296875px;
+    stroke-dashoffset: 5464.7529296875px;
+  }
+
+  .path-4 {
+    stroke-dasharray: 85.34825134277344px;
+    stroke-dashoffset: 85.34825134277344px;
+  }
+
+  .path-5 {
+    stroke-dasharray: 5329.0244140625px;
+    stroke-dashoffset: 5329.0244140625px;
+  }
+
+  .path-6 {
+    stroke-dasharray: 10990.78515625px;
+    stroke-dashoffset: 10990.78515625px;
+  }
+
+  .path-7 {
+    stroke-dasharray: 25709.935546875px;
+    stroke-dashoffset: 25709.935546875px;
+  }
+
+  .path-8 {
+    stroke-dasharray: 552.2389526367188px;
+    stroke-dashoffset: 552.2389526367188px;
+  }
+
+  .path-9 {
+    stroke-dasharray: 11861.275390625px;
+    stroke-dashoffset: 11861.275390625px;
+  }
+
+  .path-10 {
+    stroke-dasharray: 4687.70703125px;
+    stroke-dashoffset: 4687.70703125px;
+  }
+
+  .path-11 {
+    stroke-dasharray: 89.00479888916016px;
+    stroke-dashoffset: 89.00479888916016px;
+  }
+}
+
+@keyframes move {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
